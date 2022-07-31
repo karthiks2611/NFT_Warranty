@@ -4,7 +4,7 @@ This project demonstrates an E-commerce warranty system that uses Non-Fungible T
 
 Run 
 ```
-	yarn install .
+yarn install .
 ```
 
 Also Run this
