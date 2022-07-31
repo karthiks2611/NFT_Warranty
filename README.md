@@ -27,14 +27,15 @@ npx hardhat run --network goerli scripts/deploy.js
 npm run dev
 ```
 
-Go to localhost:3000
-
-
 After running command 1 copy the generated address and paste them in the config.js file in root directory.
 
+
+Go to http://localhost:3000
+
+
 Note: This deploys the contract in the Goerli Testnet, but it can be deployed in the following networks as well. 
-    1. Polygon Mainnet - mainnet
-    2. Localhost - localhost
-    3. Goerli Test Network - goerli
+    <h3>1. Polygon Mainnet - mainnet</h3>
+    <h3>2. Localhost - localhost</h3>
+    <h3>3. Goerli Test Network - goerli</h3>
 
     To run the project on any other network replace goerli by the key as given below and copy the RPC URL and pass it as an argument to the JSON RPC provider function in the LoadNFTs function defined in index.js.
