@@ -50,6 +50,8 @@ contract NFTMarket is ReentrancyGuard{
         uint256 period,
         uint256 pno
     ) public payable nonReentrant{
+        
+        // Update address of msg.sender, otherwise an exception will be thrown
         require(msg.sender == 0x153fF7D5f5f21165750496826C0a8eB5d8a643bC, "Transaction Rejected! Account Not Authorized to Create NFT"); 
         _itemIds.increment();
         uint256 itemId = _itemIds.current();
