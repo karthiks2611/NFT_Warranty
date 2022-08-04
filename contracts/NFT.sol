@@ -16,7 +16,8 @@ contract NFT is ERC721URIStorage{
     constructor(address marketplaceAddress) ERC721("Metaverse Tokens", "METT"){
         contractAddress = marketplaceAddress;
     }
-
+    
+    // Change this address of msg.sender, otherwise it will give exception. 
    function createToken(string memory TokenURI) public returns (uint){
     require(msg.sender == 0x153fF7D5f5f21165750496826C0a8eB5d8a643bC, "Transaction Rejected! Account Not Authorized to Create NFT");
     _tokenIds.increment();
