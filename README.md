@@ -19,7 +19,7 @@ Files to be added:
 .secret
 ```
 
-Before running, don't forget to change the address in both the Solidity files in contracts folder
+Before running, don't forget to change the wallet address in both the Solidity files in contracts folder
 
 To run this project run the following commands:
 
